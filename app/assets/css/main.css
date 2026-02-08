@@ -145,7 +145,7 @@ header .left {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 200px;
+  min-width: 100px;
   min-height: 50px;
   background-color: #1e2030;
   border: none;
@@ -153,7 +153,7 @@ header .left {
 }
 
 .mobile-menu {
-  width: 200px;
+  width: 100px;
   top: 50px;
   position: absolute;
   display: flex;
