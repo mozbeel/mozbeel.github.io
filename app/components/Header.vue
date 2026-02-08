@@ -1,23 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount } from 'vue'
 const mobileMenuOn = ref(false);
-
-const menuRef = ref(null)
-
-// handle click outside
-function handleClickOutside(event: Event) {
-  if (menuRef.value && !menuRef.value.contains(event.target)) {
-    menuOpen.value = false
-  }
-}
-
-onMounted(() => {
-  document.addEventListener('click', handleClickOutside)
-})
-
-onBeforeUnmount(() => {
-  document.removeEventListener('click', handleClickOutside)
-})
 </script>
 
 <template>
