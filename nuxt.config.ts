@@ -13,6 +13,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "<Matthias Leeb/>",
-    }
+    },
   }
 })
