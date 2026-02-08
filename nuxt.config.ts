@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   modules: ["@nuxt/fonts"],
   fonts: {
     families: [
-      { name: "Oswald", weights: [700]}
+      { name: "Oswald", weights: [700]},
+      { name: "Lato", weights: [400, 700, 900]}
     ],
   },
   app: {
