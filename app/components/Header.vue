@@ -10,9 +10,9 @@
     </div>
 
     <nav class="right">
-      <a href="#start" class="tab-title gray-text title-font">[Start]</a>
-      <a href="#about" class="tab-title gray-text title-font">[About]</a>
-      <a href="#contact" class="tab-title gray-text title-font">[Contact]</a>
+      <a href="#start" class="tab-title gray-text title-font glow-on-hover">[Start]</a>
+      <a href="#about" class="tab-title gray-text title-font glow-on-hover">[About]</a>
+      <a href="#contact" class="tab-title gray-text title-font glow-on-hover">[Contact]</a>
     </nav>
   </header>
 </template>
