@@ -40,7 +40,7 @@ developingText.value = developingTextOptions[randomNumber] || "";
             <IntroSection>
                 <p class="intro-font dark-gray-text title-sections-text">WEB</p>
                 <p class="text intro-font web-text">
-                    I have developed several websites by now and I have been doing it for about 3 years
+                    I have developed several websites by now and I have been doing it for about 3 years on and off
                 </p>
                 <p class="gray-text intro-font">
                     Tech stack: HTML/JS/CSS, Vue/Nuxt, React/NextJS
