@@ -14,5 +14,6 @@ export default defineNuxtConfig({
     head: {
       title: "<Matthias Leeb/>",
     },
+    baseURL: "/Portfolio/"
   }
 })
