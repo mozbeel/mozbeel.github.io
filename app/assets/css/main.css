@@ -101,12 +101,21 @@ header .left {
   color: #363a4f;
 }
 
-.name-title {
-  font-size: 35px;
-  margin: 0;
-  display: inline-block;
-  text-decoration: none;
+@media (max-width: 550px) {
+  .name-title {
+    font-size: 25px; 
+  }
 }
+
+@media (min-width: 550px) {
+  .name-title {
+    font-size: 35px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+  }  
+}
+
 
 .no-select {
   user-select: none;
