@@ -103,7 +103,10 @@ header .left {
 
 @media (max-width: 550px) {
   .name-title {
-    font-size: 25px; 
+    font-size: 25px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none; 
   }
 }
 
