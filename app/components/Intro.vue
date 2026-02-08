@@ -29,12 +29,12 @@ developingText.value = developingTextOptions[randomNumber] || "";
                 <p class="start-text gray-text intro-font">[Start]</p>
                 <p class="text intro-font intro-title">
                     Hi, my name is 
-                    <span class="accent">Matthias Leeb</span>
+                    <span class="accent intro-font-bold">Matthias Leeb</span>
                 </p>
                 <p class="text intro-font intro-title intro-title-end">
                     and I develop <span class="intro-font-bold italic">{{ developingText }}</span>
                 </p>
-                <p class="start-text gray-text intro-font">Let me show you...</p>
+                <p class="intro-font gray-text">Let me show you...</p>
             </IntroSection>
 
             <IntroSection>
@@ -42,7 +42,7 @@ developingText.value = developingTextOptions[randomNumber] || "";
                 <p class="text intro-font web-text">
                     I have developed several websites by now and I have been doing it for about 3 years on and off
                 </p>
-                <p class="gray-text intro-font">
+                <p class="other-accent intro-font intro-font-bold">
                     Tech stack: HTML/JS/CSS, Vue/Nuxt, React/NextJS
                 </p>
             </IntroSection>
@@ -52,7 +52,7 @@ developingText.value = developingTextOptions[randomNumber] || "";
                 <p class="text intro-font web-text">
                     I have a solid understanding of networking and am currently taking a course in networking
                 </p>
-                <p class="gray-text intro-font">
+                <p class="other-accent intro-font intro-font-bold">
                     Tech stack: Go
                 </p>
             </IntroSection>
@@ -63,7 +63,7 @@ developingText.value = developingTextOptions[randomNumber] || "";
                     Developing systems in the best way possible is my favorite thing to do. 
                     This includes making basic game engines and toolchains for others to develop in.
                 </p>
-                <p class="gray-text intro-font">
+                <p class="other-accent intro-font intro-font-bold">
                     Tech stack: Zig, Rust, C++, C, Java, OCaml, Gleam
                 </p>
             </IntroSection>
